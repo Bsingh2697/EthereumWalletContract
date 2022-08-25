@@ -1,6 +1,6 @@
 # Ethereum Wallet Contract Hardhat Project
 
-This project is the has the contract code, deployment script and test cases for the contract.
+This project is the has the contract code, deployment script and test cases for the Ethereum Wallet marketplace contract.
 
 Try running some of the following tasks:
 
