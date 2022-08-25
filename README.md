@@ -1,6 +1,6 @@
-# Sample Hardhat Project
+# Ethereum Wallet Contract Hardhat Project
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+This project is the has the contract code, deployment script and test cases for the contract.
 
 Try running some of the following tasks:
 
