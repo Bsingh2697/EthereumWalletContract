@@ -101,7 +101,7 @@ contract ETHWalletMarketplace is ERC721URIStorage {
 
         _tokenIds.increment();
         uint256 currentTokenId = _tokenIds.current();
-        _safeMint(msg.sender, currentTokenId); // Mints the token to the address // If address is invalid it returns instead to creating a new address
+        _safeMint(msg.sender, currentTokenId); // Mints the token to the address // If address is invalid it returns instead of creating a new address
 
         _setTokenURI(currentTokenId, tokenURI);
 
@@ -185,7 +185,7 @@ contract ETHWalletMarketplace is ERC721URIStorage {
         uint256 price = idToListedToken[tokenId].price;
         require(
             msg.value == price,
-            "Insuffient ether sent for the NFT purchase"
+            "Insuffcient ether sent for the NFT purchase"
         );
         address seller = idToListedToken[tokenId].seller;
 
